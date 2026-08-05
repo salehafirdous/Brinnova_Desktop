@@ -14,10 +14,10 @@ body {
 
 .container {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 2vh auto;
   background-color: white;
-  height: 100vh;
-  /* Exactly viewport height */
+  height: 96vh;
+  border-radius: 16px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
