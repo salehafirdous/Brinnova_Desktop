@@ -3,14 +3,14 @@ import { Phone } from 'lucide-react';
 import './App.css';
 
 const StrokeIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
     <path d="M12 4c-3 0-5 2-5 4.5 0 .5-.1 1-.2 1.5A3.5 3.5 0 0 0 5 14c0 2 1.5 3 3 3 .5 0 1 .1 1.5.2A4.5 4.5 0 0 0 14 15.5M12 4c3 0 5 2 5 4.5 0 .5.1 1 .2 1.5A3.5 3.5 0 0 1 19 14c0 2-1.5 3-3 3-.5 0-1 .1-1.5.2A4.5 4.5 0 0 1 10 15.5" />
     <g><path d="M13 3l-3 7h4l-3 8" /></g>
   </svg>
 );
 
 const ParalysisIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
     <path d="M9 11h4a2 2 0 0 1 2 2v3" />
     <path d="M11 7.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
     <path d="M15 16h3.5" />
@@ -21,7 +21,7 @@ const ParalysisIcon = () => (
 );
 
 const OrthoIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
     <path d="M9 3c0 4 2 6 2 9s-2 5-2 9" />
     <path d="M15 3c0 4-2 6-2 9s2 5 2 9" />
     <g><circle cx="12" cy="12" r="3" /></g>
@@ -29,7 +29,7 @@ const OrthoIcon = () => (
 );
 
 const NeuroIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
     <path d="M13 4a6 6 0 0 1 6 6c0 2.2-1 4-2 6a3 3 0 0 0-1.5 2.5V21h-5v-2.5A3 3 0 0 0 8.5 16c-1-2-2-3.8-2-6a6 6 0 0 1 6.5-6z" />
     <g>
       <path d="M12.5 7l3 1.5v3l-3 1.5-3-1.5v-3z" />
@@ -40,7 +40,7 @@ const NeuroIcon = () => (
 );
 
 const GeriatricIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
     <path d="M10 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
     <path d="M10 6c-1 3-3 5-3 8v7" />
     <path d="M10 6c2 1 4 1 5 3v6" />
@@ -53,7 +53,7 @@ const GeriatricIcon = () => (
 );
 
 const PolytraumaIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
     <path d="M12 9a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
     <path d="M5 21v-3a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v3" />
     <g>
@@ -64,7 +64,7 @@ const PolytraumaIcon = () => (
 );
 
 const RespiratoryIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
     <path d="M12 3v5" />
     <path d="M12 8l-2 2" />
     <path d="M12 8l2 2" />
@@ -77,7 +77,7 @@ const RespiratoryIcon = () => (
 );
 
 const SpeechIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
     <path d="M11 4a6 6 0 0 1 6 6c0 2.2-1 4-2 6a3 3 0 0 0-1.5 2.5V21H8v-2.5A3 3 0 0 0 6.5 16c-1-2-2-3.8-2-6a6 6 0 0 1 6.5-6z" />
     <g>
       <path d="M18 10a4 4 0 0 1 0 4M21 8a8 8 0 0 1 0 8" />
@@ -86,14 +86,14 @@ const SpeechIcon = () => (
 );
 
 const PhysioIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
-    <circle cx="12" cy="7" r="2.5"/>
-    <path d="M12 10v6"/>
-    <path d="M12 10c-2 0-4.5 1-4.5 3"/>
-    <path d="M12 10c2 0 4.5 1 4.5 3"/>
-    <path d="M12 16l-3 4"/>
-    <path d="M12 16l3 4"/>
-    <path d="M8 19h8"/>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" width="100%" height="100%">
+    <circle cx="12" cy="7" r="2.5" />
+    <path d="M12 10v6" />
+    <path d="M12 10c-2 0-4.5 1-4.5 3" />
+    <path d="M12 10c2 0 4.5 1 4.5 3" />
+    <path d="M12 16l-3 4" />
+    <path d="M12 16l3 4" />
+    <path d="M8 19h8" />
   </svg>
 );
 
@@ -116,29 +116,29 @@ function App() {
         <div className="hero-right">
           <img src="/hero-new-image-2.jpg" alt="Rehabilitation Care" className="hero-image-desktop" />
         </div>
-        
+
         <svg className="hero-overlay" viewBox="0 0 2000 1000" preserveAspectRatio="none">
-          <path d="M 1100,0 C 800,400 1200,900 2000,900 L 2000,1100 L 0,1100 L 0,0 Z" fill="#026fa6" />
-          <path d="M 1050,0 C 750,420 1100,950 2000,950 L 2000,1100 L 0,1100 L 0,0 Z" fill="#f6921e" />
-          <path d="M 1040,0 C 740,420 1080,965 2000,965 L 2000,1100 L 0,1100 L 0,0 Z" fill="#ffffff" />
+          <path d="M 900,450 C 1100,850 1600,900 2000,900 L 2000,1100 L 900,1100 Z" fill="#026fa6" />
+          <path d="M 900,450 C 1100,890 1600,940 2000,940 L 2000,1100 L 900,1100 Z" fill="#f6921e" />
+          <path d="M 900,450 C 1100,930 1600,965 2000,965 L 2000,1100 L 900,1100 Z" fill="#ffffff" />
         </svg>
 
         <div className="hero-left">
           <div className="logo-section">
             <img src="/logo.png" alt="Brinnova Transitional Care" className="logo-image" />
           </div>
-          
+
           <h1 className="hero-title">
             <div className="navy-text title-line-1">Comprehensive</div>
             <div className="orange-text title-line-2">Rehabilitation Care</div>
             <div className="navy-text title-line-3">For Every Stage of Recovery</div>
           </h1>
-          
+
           <p className="hero-description">
-            At Brinnova Care, we deliver personalized rehabilitation<br/>
-            programs for a wide range of conditions. Our expert team<br/>
-            focuses on restoring independence, improving mobility<br/>
-            and enhancing quality of life with compassion<br/>
+            At Brinnova Care Hyderabad, we deliver personalised rehabilitation<br />
+            programs for a wide range of conditions. Our expert team<br />
+            focuses on restoring independence, improving mobility<br />
+            and enhancing quality of life with compassion<br />
             and clinical excellence.
           </p>
         </div>
@@ -184,7 +184,7 @@ function App() {
         </div>
         <div className="cta-right">
           <div className="cta-sub">Speak to our care team today</div>
-          <div className="cta-phone">+91 88855 59994</div>
+          <div className="cta-phone">91005 55511</div>
         </div>
       </div>
     </div>
