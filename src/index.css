@@ -1,0 +1,20 @@
+/* Global styles for handling the view switching */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .desktop-view-wrapper {
+    display: none !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-view-wrapper {
+    display: none !important;
+  }
+}
